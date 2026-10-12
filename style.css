@@ -167,7 +167,7 @@ a {
     text-decoration: none;
     border-radius: 10px;
 }
-@media(max-widh: 600px) {
+@media(max-width: 600px) {
     .card {
         width: 90%;
         padding: 20px;
@@ -302,7 +302,7 @@ a {
     text-decoration: none;
     border-radius: 10px;
 }
-@media(max-widh: 600px) {
+@media(max-width: 600px) {
     .card {
         width: 90%;
         padding: 20px;
@@ -380,7 +380,7 @@ background-color: #fafafa;
     color: #eee;
 }
 .main-button{
-    transition: opacity 0.5s ease,transfrom 0.5s ease;
+    transition: opacity 0.5s ease,transform 0.5s ease;
 }
 .messge-animation {
     animation: fadeIn 1s ease;
@@ -589,7 +589,7 @@ form textarea:focus {
     border: 1px solid #ddd;
     width: 90%;
     transition: 0.3s;
-    animation: vistBoxAnimation 0.8s ease;
+    animation: visitBoxAnimation 0.8s ease;
 }
 @keyframes visitBoxAnimation {
     from {
@@ -708,6 +708,7 @@ form textarea:focus {
     position: relative;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
      animation: modalAppear 1s ease;
+}
      @keyframes modalAppear {
     from {
         opacity: 0;
@@ -719,7 +720,7 @@ form textarea:focus {
         transform: scale(1);
     }
 }
-}
+
 
 .project-modal-content h2 {
     color: purple;
@@ -873,4 +874,23 @@ body.reading-mode h3 {
     font-size: 13px;
     color: #888;
     margin-top: 5px;
+}
+/* صندوق My Skills الكبير */
+.card > .skills {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 20px !important;
+    margin: 30px 0 !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 10px !important;
+
+    background-color: #f3e5f5 !important;
+    border-radius: 10px !important;
+}
+.project {
+    height: auto !important;
+    border-radius: 15px !important;
+    box-sizing: border-box;
 }
