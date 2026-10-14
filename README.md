@@ -4,7 +4,7 @@ My personal Front-End Developer portfolio built with HTML, CSS, and JavaScript.
 
 Live Website
 
-[Visit My Portfolio](https://areejq90.github.io/my-first-website/)
+[Visit My Portfolio]([https://](https://areejq90.github.io/my-first-website/))
 
 Technologies Used
 
